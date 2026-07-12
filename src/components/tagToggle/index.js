@@ -14,7 +14,7 @@ export default function TagToggle({ selected, onChange }) {
         }
 
         return TAG_TYPE_ZH;
-    }, []);
+    }, [i18n.currentLocale]);
 
     const handleOnclick = (tag, index) => {
         setActiveIndex(index);
