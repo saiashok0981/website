@@ -22,7 +22,7 @@ const config = {
     locales: ["en", "zh"],
     localeConfigs: {
       en: {
-        htmlLang: "en-GB",
+        htmlLang: "en-US",
         label: "English",
       },
       zh: {
