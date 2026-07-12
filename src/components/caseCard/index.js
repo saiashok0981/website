@@ -11,6 +11,7 @@ export default function CaseCard(props) {
         desc = "",
         imgUrl = "",
         link = "",
+        tags = [],
     } = props;
 
     return (
@@ -28,6 +29,13 @@ export default function CaseCard(props) {
             <hr />
             <h3 className="sub">{subTitle}</h3>
             <p className="desc">{desc}</p>
+            {tags && tags.length > 0 && (
+                <div className="tags">
+                    {tags.map((tag) => (
+                        <span key={tag} className="tag-badge">{tag}</span>
+                    ))}
+                </div>
+            )}
             <div className="date">{date}</div>
             <Link className="button" to={link}>
                 <Translate>READ CASE STUDY</Translate>

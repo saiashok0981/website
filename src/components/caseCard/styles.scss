@@ -69,6 +69,26 @@
     font-size: 12px;
   }
 
+  .tags {
+    grid-area: date;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: flex-start;
+    margin-bottom: 8px;
+
+    .tag-badge {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #fff;
+      background-color: rgba(28, 119, 200, 0.7);
+      border-radius: 4px;
+      padding: 2px 8px;
+    }
+  }
+
   .button {
     grid-area: btn;
     font-size: 16px;
