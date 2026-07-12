@@ -34,7 +34,7 @@
       }
 
       &.center {
-        align-items: centers;
+        align-items: center;
         justify-content: center;
 
         .title {
@@ -87,12 +87,12 @@
     }
 
     .slick-prev {
-      position: position;
+      position: absolute;
       left: 0;
     }
 
     .slick-next {
-      position: position;
+      position: absolute;
       right: 0;
     }
 
