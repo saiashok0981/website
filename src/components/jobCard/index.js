@@ -20,7 +20,7 @@ export default function JobCard(props) {
     return (
         <div className="job-card" onClick={() => history.push(link)}>
             <div className="image">
-                <img src={logo} />
+                <img src={logo} alt={company} />
             </div>
             <div className="content">
                 <div className="title">
